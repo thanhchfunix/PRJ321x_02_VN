@@ -1,0 +1,48 @@
+body, html {
+	height: 100%;
+}
+
+.bg {
+	/* The image used */
+	background-image:
+		url("../media/img/A-different-Hoa-Lac-1.jpg");
+	/* 50% height */
+	height: 50%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nav-top {
+	z-index: 1;
+}
+
+.nav-top a {
+	color: #A2A29E;
+}
+
+.cap {
+	background-color: #86369D;
+}
+
+.table caption {
+	caption-side: top;
+}
+
+.table * {
+	color: #ffffff;
+}
+
+li a:hover {
+	background-color: #86369D;
+}
+
+.sidebar {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%,
+		rgba(0, 0, 0, 0.6) 100%),
+		url(../media/img/A-different-Hoa-Lac-8.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
